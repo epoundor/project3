@@ -79,9 +79,12 @@ footer{
 @media only screen and (max-width:500px) {
     footer{
         bottom: -70%;
+        top:250%;
     }
     main{
     flex-wrap: wrap;
+    transform: translate(-60%,10%);
+    top: 0;
     }
     .cart{
         width: 350px;
